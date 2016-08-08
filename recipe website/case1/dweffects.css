@@ -1,0 +1,55 @@
+/*
+   
+   Case Problem 1
+   Special Effects style sheet
+   Author: Wilman Gonzales
+   Date: 05/02/14  
+
+*/
+
+
+
+body {
+-moz-box-shadow: rgba(211, 211, 211, 0.5) 10px 0px 15px,
+rgba(211, 211, 211, 0.5) -10px 0px 15px;
+-webkit-box-shadow: rgba(211, 211, 211, 0.5) 10px 0px 15px,
+rgba(211, 211, 211, 0.5) -10px 0px 15px;
+box-shadow: rgba(211, 211, 211, 0.5) 10px 0px 15px,
+rgba(211, 211, 211, 0.5) -10px 0px 15px;
+} 
+
+header nav.horizontal li {
+background-color: rgb(224, 238, 238);
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+-moz-box-shadow: inset rgb(147, 207, 207) -5px -5px 5px,
+inset white 3px 3px 2px;
+-webkit-box-shadow: inset rgb(147, 207, 207) -5px -5px 5px,
+inset white 3px 3px 2px;
+box-shadow: inset rgb(147, 207, 207) -5px -5px 5px,
+inset white 3px 3px 2px;
+} 
+
+article {
+-moz-box-shadow: inset rgb(171, 171, 171) -15px -15px 75px,
+rgb(101, 101, 101) 5px 5px 5px;
+-webkit-box-shadow: inset rgb(171, 171, 171) -15px -15px 75px,
+rgb(101, 101, 101) 5px 5px 5px;
+box-shadow: inset rgb(171, 171, 171) -15px -15px 75px,
+rgb(101, 101, 101) 5px 5px 5px;
+} 
+
+blockquote {
+-ms-filter: "progid:DXImageTransform.Microsoft.Gradient(gradientType=1, startColorStr=#DEF4F4, endColorStr=#FFFFFF)";
+filter: progid:DXImageTransform.Microsoft.Gradient(gradientType=1, startColorStr=#DEF4F4, endColorStr=#FFFFFF);
+background: -ms-linear-gradient(left, rgb(166, 230, 230), rgb(231, 231, 231) 5%, rgb(255, 255, 255) 15%);
+background: -o-linear-gradient(left, rgb(166, 230, 230), rgb(231, 231, 231) 5%, rgb(255, 255, 255) 15%);
+background: -moz-linear-gradient(left, rgb(166, 230, 230), rgb(231, 231, 231) 5%, rgb(255, 255, 255) 15%);
+background: -webkit-gradient(linear, left center, 15% center, from(rgb(166, 230, 230)), color-stop(33%, rgb(231, 231, 231)), to(rgb(255, 255, 255)) );
+background: -webkit-linear-gradient(left, rgb(166, 230, 230), rgb(231, 231, 231) 5%, rgb(255, 255, 255) 15%);
+background: linear-gradient(left, rgb(166, 230, 230), rgb(231, 231, 231) 5%, rgb(255, 255, 255) 15%);
+} 
+
+/*Great experience from this assignment!!!   */
+
