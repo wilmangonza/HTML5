@@ -1,0 +1,180 @@
+/*
+  
+
+   Pizza Style Sheet
+   Author: Wilman Gonzales
+   Date:  4/19/2014 
+
+  
+
+*/
+header, section, aside, footer, nav {
+	display:block;
+	padding:0px;
+	margin:0px;
+}
+
+body{
+	background-color:rgb(255,0,0);
+	font-family:Verdana, Geneva, sans-serif;
+}
+	
+#container{
+	width:1000px;
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-left:auto;
+	margin-right:auto;
+	border-left:1px solid rgb(0,0,0);		
+	border-right:1px solid rgb(0,0,0);
+	background-color:rgb(255,255,255);
+	background-image:url(redbar.png);
+	background-position:top left;
+	background-repeat:no-repeat;
+	
+}
+
+header{
+	background-color:rgb(255,255,255);
+	height:100px;
+}
+
+.horizontal{height:70px;
+            width:100%;
+            background-color:rgb(255,255,255);
+}
+
+.horizontal ul li{
+	background-color:rgb(255,255,255);
+	font-size:16px;
+	height:50px;
+	line-height:50px;
+	width:180px;
+	display:block;
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+	text-align:center;
+}
+
+.horizontal ul li a{display:block;
+                    background-color:rgb(255,0,0);
+                    color:rgb(255,255,255);
+                    border-bottom-left-radius: 30px 25px;
+                    text-decoration:none;
+}
+
+.horizontal ul li a:hover{background-color:rgb(255,101,101);
+color:rgb(0,0,0);
+}
+
+.vertical{ background-color:rgb(255,0,0);
+          float:left;
+          clear:left;
+		  width:200px;
+}
+
+.vertical ul li{ 
+	            list-style-type:none;
+                margin:0px;
+				text-indent:20px;
+				margin-top:20px;
+				margin-bottom:20px;
+}
+
+.vertical ul li a{color:rgb(255,255,255);
+                  text-decoration:none;
+}
+
+.vertical ul li a:hover{color:rgb(0,0,0);
+}
+
+#main{background-color:rgb(255,211,211);
+      float:left;
+	  width:600px;
+}
+
+#main p{font-size:20px;
+        margin:15px;
+}
+#main img{float:right;
+          margin:15px;
+		  width:350px;
+		  border-bottom-left-radius:350px;
+}
+
+#main .coupon{background:url(slice.png) center center no-repeat, url(notice.png) bottom right no-repeat;
+background-color:rgb(255,255,255);
+	border:5px dashed rgb(0,0,0);
+        float:left;
+		width:170px;
+		height:150px;
+		margin-top:20px;
+		margin-bottom:20px;
+		margin-left:10px;
+		margin-right:10px;
+}
+
+#main .coupon h1{
+	color:rgb(255,255,255);
+	background-color:rgb(192,0,0);
+	font-size:16px;
+	font-variant:small-caps;
+	height:25px;
+	letter-spacing:2px;
+	text-align:center;
+}
+
+#main .coupon p{
+	font-size:14px;
+	text-align:center;
+	margin:5px;
+}
+
+aside {float:left;
+       width:200px;
+}
+
+aside h1{color:rgb(192,0,0);
+         font-size:20px;
+		 letter-spacing:2px;
+		 font-weight:normal;
+		 text-align:center;
+}
+
+aside ul li{ background-color:rgb(255,135,135);
+             border-radius:5px;
+			 color:rgb(0,0,0);
+			 list-style:none;
+			 margin:10px;
+			 padding:5px;
+}
+
+footer{ clear:left;
+        margin-left:200px;
+}
+
+footer address{ border-top:1px solid rgb(255,0,0);
+                color:rgb(255,0,0);
+				font-size:10px;
+				font-style:normal;
+				text-align:center;
+				margin-top:25px;
+				padding-bottom:20px;
+}
+
+
+
+             
+		  
+
+
+
+
+				  
+
+
+
+
+
+				
