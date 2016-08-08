@@ -1,0 +1,68 @@
+/*
+
+
+   Comment Form Style Sheet
+   Author: Wilman Gonzales
+   Date: 4/25/2014   
+
+  
+*/
+
+fieldset{ background-color:rgb(255,255,255);
+               margin-top:15px;
+			   margin-bottom:15px;
+			   margin-left:auto;
+			   margin-left:auto;
+			   padding:5px;
+			   width:90%;
+}
+
+
+label{ display:block;
+                     float:left;
+					 clear:left;
+					 font-size:0.9em;
+					 width:100%;
+					 margin-top:5px;
+					 margin-bottom:5px;
+}
+
+input, textarea{ display:block;
+                           float:right;
+						   font-size:0.9em;
+						   width:55%;
+						   margin-left:10px;
+						   margin-right:10px;
+						   
+}
+
+textarea{  height:150px;
+}
+
+input(type="submit"){ display:block;
+                                  clear:both;
+								  float:none;
+								  width:200px;
+								  height:30px;
+								  margin-top:5px;
+								  margin-bottom:5px;
+								  margin-left:auto;
+								  margin-right:auto;
+}
+
+input:focus, textarea:focus {
+    background-color:rgb(225,225,240);
+}
+
+
+input:focus:valid {
+    background: url("go.png") no-repeat scroll right bottom / contain #rgb(225,240,225);
+}
+
+input:focus:invalid {
+    background: url("stop.png") no-repeat scroll right bottom / contain #rgb(225,240,225);
+}
+
+								 
+                                          
+
